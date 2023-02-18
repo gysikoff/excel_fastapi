@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', path='/style.css') }}">
+    <title>Excel API</title>
+    <script type="text/javascript" src="{{ url_for('static', path='/scripts.js') }}"></script>
+</head>
+<body>
+    <div class="header">
+        <h3><a href="/docs">DOCS</a></h3>
+    </div>
+    <div class="container">
+        <div class="input-container">
+            <div class="excel">
+                <input type="file" class="excel-inp">
+            </div>
+            <div class="column-container">
+                <div class="column">
+                    <span class="text-col">Column: </span> <input type="text" class="column-inp">
+                    <div class="add-col-btn">
+                        <input type="button" value="Add another column" class="add-col-btn-inp" onclick="handleButtonClick()">
+                    </div>
+                </div>
+            </div>
+            <div class="send-req">
+                <input type="button" value="send request" class="send-req-inp">
+            </div>
+        </div>
+        <div class="output">
+            <textarea name="" id="" cols="70" rows="25" class="output-text" readonly></textarea>
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+</html>

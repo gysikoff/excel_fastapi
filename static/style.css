@@ -1,0 +1,116 @@
+
+body {
+    margin: 0!important;
+    font-family: sans-serif;
+}
+
+
+.header {
+    background-color: #007bff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 60px;
+    padding: 0 20px;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.excel {
+    margin-bottom: 10px;
+}
+
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.column:first-child {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 142px;
+    margin-top: 10px;
+}
+
+.text-col {
+    margin-right: 10px;
+}
+
+
+.add-col-btn {
+    margin-left: 10px;
+    float: left;
+}
+
+.add-col-btn-inp {
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.send-req {
+    margin-top: 10px;
+}
+
+.send-req-inp {
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.output {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.output-text {
+    font-family: monospace;
+}
+
+.footer {
+    height: 60px;
+}
+
+
