@@ -1,11 +1,11 @@
 # excel_fastapi
 
-installs required: 
+<b>installs required: </b>
 
 pip install fastapi uvicorn python-multipart openpyxl jinja2
 
+</br>
 
-
-to run execute command:
+<b>to run execute command:</b>
 
 uvicorn api:app --reload
